@@ -2,17 +2,17 @@ from __future__ import division
 import pygame
 import math
 import random
-#######################################CREDITS####################################
-#						SpaceRacer												 #
-# 			Author of atari_boom.wav: dklon										 #
-# 			Source : http://opengameart.org/content/atari-booms					 #
-# 			Author of asteroids.png: phaelax 						 			 #
-# 			Source : http://opengameart.org/content/asteroids		             #
-#			Author of life_pickup.flac: Lamoot									 #
-#			Source : http://opengameart.org/content/life-pickup-yo-frankie		 #
-#			Author of soundrack.wav: FoxSynergy                                  #
-#			Source: http://opengameart.org/content/soul-star                     #
-#######################################CREDITS####################################
+#######################################CREDITS###########################################
+#						SpaceRacer				#
+# 			Author of atari_boom.wav: dklon					#
+# 			Source : http://opengameart.org/content/atari-booms		#
+# 			Author of asteroids.png: phaelax 				#
+# 			Source : http://opengameart.org/content/asteroids		#
+#			Author of life_pickup.flac: Lamoot				#
+#			Source : http://opengameart.org/content/life-pickup-yo-frankie	#
+#			Author of soundrack.wav: FoxSynergy                             #
+#			Source: http://opengameart.org/content/soul-star                #
+#######################################CREDITS###########################################
 # classes & functions
 def collides(image1, rect1, image2, rect2):
 	mask1 = pygame.mask.from_surface(image1)
